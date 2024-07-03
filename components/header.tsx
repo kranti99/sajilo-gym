@@ -18,7 +18,7 @@ export default function Header() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="./pages/about-us">About Us</Link>
+              <Link href="./about-us">About Us</Link>
             </li>
             <li>
               <Link href="./classes">classes</Link>
@@ -33,7 +33,7 @@ export default function Header() {
               <Link href="#">Pages</Link>
               <ul className="dropdown">
                 <li>
-                  <Link href="./pages/about-us">About us</Link>
+                  <Link href="./about-us">About us</Link>
                 </li>
                 <li>
                   <Link href="./className-timetable.html">
@@ -104,7 +104,7 @@ export default function Header() {
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="./pages/about-us">About Us</Link>
+                    <Link href="./about-us">About Us</Link>
                   </li>
                   <li>
                     <Link href="./className-details">classNamees</Link>
@@ -119,7 +119,7 @@ export default function Header() {
                     <Link href="#">Pages</Link>
                     <ul className="dropdown">
                       <li>
-                        <Link href="./pages/about-us">About us</Link>
+                        <Link href="./about-us">About us</Link>
                       </li>
                       <li>
                         <Link href="./className-timetable">
