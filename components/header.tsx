@@ -36,15 +36,13 @@ export default function Header() {
                   <a href="./about-us">About us</a>
                 </li>
                 <li>
-                  <Link href="./className-timetable.html">
-                    classNamees timetable
-                  </Link>
+                  <Link href="./className-timetable.html">class timetable</Link>
                 </li>
                 <li>
                   <Link href="./bmi-calculator.html">Bmi calculate</Link>
                 </li>
                 <li>
-                  <Link href="./team.html">Our team</Link>
+                  <Link href="./team">Our team</Link>
                 </li>
                 <li>
                   <Link href="./gallery.html">Gallery</Link>
@@ -107,7 +105,7 @@ export default function Header() {
                     <a href="./about-us">About Us</a>
                   </li>
                   <li>
-                    <Link href="./className-details">classNamees</Link>
+                    <Link href="./class-details">classes</Link>
                   </li>
                   <li>
                     <Link href="./services">Services</Link>
@@ -122,9 +120,7 @@ export default function Header() {
                         <a href="./about-us">About us</a>
                       </li>
                       <li>
-                        <Link href="./className-timetable">
-                          classNamees timetable
-                        </Link>
+                        <Link href="./class-timetable">classes timetable</Link>
                       </li>
                       <li>
                         <Link href="./bmi-calculator">Bmi calculate</Link>
@@ -144,7 +140,7 @@ export default function Header() {
                     </ul>
                   </li>
                   <li>
-                    <Link href="./contact.html">Contact</Link>
+                    <Link href="./contact">Contact</Link>
                   </li>
                 </ul>
               </nav>

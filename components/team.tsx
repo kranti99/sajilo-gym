@@ -23,8 +23,8 @@ export default function Team() {
             <div className="ts-slider owl-carousel">
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="./img/team/team-1.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-1.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
@@ -34,8 +34,8 @@ export default function Team() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-2.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-2.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
@@ -45,8 +45,8 @@ export default function Team() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-3.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-3.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
@@ -56,8 +56,8 @@ export default function Team() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-4.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-4.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
@@ -67,8 +67,8 @@ export default function Team() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-5.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-5.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
@@ -78,8 +78,8 @@ export default function Team() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-6.jpg"
+                  className="ts-item"
+                  style={{ backgroundImage: "url('/img/team/team-6.jpg')" }}
                 >
                   <div className="ts_text">
                     <h4>Athart Rachel</h4>
