@@ -1,113 +1,492 @@
 import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+      {/* Hero Section Begin */}
+      <section className="hero-section">
+        <div className="hs-slider owl-carousel">
+          <div className="hs-item set-bg" data-setbg="/img/hero/hero-1.jpg">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6 offset-lg-6">
+                  <div className="hi-text">
+                    <span>Sajilo Fitness and Gym</span>
+                    <h1>
+                      Be <strong>strong</strong> traning hard
+                    </h1>
+                    <a href="#" className="primary-btn">
+                      Get info
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="hs-item set-bg" data-setbg="/img/hero/hero-2.jpg">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6 offset-lg-6">
+                  <div className="hi-text">
+                    <span>Sajilo Fitness and Gym </span>
+                    <h1>
+                      Be <strong>strong</strong> traning hard
+                    </h1>
+                    <a href="#" className="primary-btn">
+                      Get info
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Hero Section End */}
+
+      {/* ChoseUs Section Begin */}
+      <section className="choseus-section spad">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title">
+                <span>Why chose us?</span>
+                <h2>PUSH YOUR LIMITS FORWARD</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              <div className="cs-item">
+                <span className="flaticon-034-stationary-bike"></span>
+                <h4>Modern equipment</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut dolore facilisis.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="cs-item">
+                <span className="flaticon-033-juice"></span>
+                <h4>Healthy nutrition plan</h4>
+                <p>
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="cs-item">
+                <span className="flaticon-002-dumbell"></span>
+                <h4>Proffesponal training plan</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut dolore facilisis.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="cs-item">
+                <span className="flaticon-014-heart-beat"></span>
+                <h4>Unique to your needs</h4>
+                <p>
+                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                  maecenas accumsan lacus vel facilisis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ChoseUs Section End */}
+
+      {/* classes Section Begin */}
+      <section className="classes-section spad">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title">
+                <span>Our classes</span>
+                <h2>WHAT WE CAN OFFER</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="class-item">
+                <div className="ci-pic">
+                  <Image
+                    src="/img/classes/class-1.jpg"
+                    alt=""
+                    width={360}
+                    height={240}
+                  />
+                </div>
+                <div className="ci-text">
+                  <span>STRENGTH</span>
+                  <h5>Weightlifting</h5>
+                  <a href="#">
+                    <i className="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="class-item">
+                <div className="ci-pic">
+                  <Image
+                    src="/img/classes/class-2.jpg"
+                    alt=""
+                    width={360}
+                    height={240}
+                  />
+                </div>
+                <div className="ci-text">
+                  <span>Cardio</span>
+                  <h5>Indoor cycling</h5>
+                  <a href="#">
+                    <i className="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="class-item">
+                <div className="ci-pic">
+                  <Image
+                    src="/img/classes/class-3.jpg"
+                    alt=""
+                    width={360}
+                    height={240}
+                  />
+                </div>
+                <div className="ci-text">
+                  <span>STRENGTH</span>
+                  <h5>Kettlebell power</h5>
+                  <a href="#">
+                    <i className="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6">
+              <div className="class-item">
+                <div className="ci-pic">
+                  <Image
+                    src="/img/classes/class-4.jpg"
+                    alt=""
+                    width={360}
+                    height={240}
+                  />
+                </div>
+                <div className="ci-text">
+                  <span>Cardio</span>
+                  <h4>Indoor cycling</h4>
+                  <a href="#">
+                    <i className="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="class-item">
+                <div className="ci-pic">
+                  <Image
+                    src="/img/classes/class-5.jpg"
+                    alt=""
+                    width={360}
+                    height={240}
+                  />
+                </div>
+                <div className="ci-text">
+                  <span>Cardio</span>
+                  <h4>Workout</h4>
+                  <a href="#">
+                    <i className="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* ChoseUs Section End */}
+
+      {/* Banner Section Begin */}
+      <section
+        className="banner-section set-bg"
+        data-setbg="/img/banner-bg.jpg"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 text-center">
+              <div className="bs-text">
+                <h2>registration now to get more deals</h2>
+                <div className="bt-tips">
+                  Where health, beauty and fitness meet.
+                </div>
+                <a href="#" className="primary-btn  btn-normal">
+                  Appointment
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Banner Section End */}
+
+      {/* Pricing Section Begin */}
+      <section className="pricing-section spad">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title">
+                <span>Our Plan</span>
+                <h2>Choose your pricing plan</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-8">
+              <div className="ps-item">
+                <h3>3 month unlimited</h3>
+                <div className="pi-price">
+                  <h2>Rs. 4000</h2>
+                  <span>SINGLE className</span>
+                </div>
+                <ul>
+                  <li>Free riding</li>
+                  <li>Unlimited equipments</li>
+                  <li>Personal trainer</li>
+                  <li>Weight losing classes</li>
+                  <li>Month to mouth</li>
+                  <li>No time restriction</li>
+                </ul>
+                <a href="#" className="primary-btn pricing-btn">
+                  Enroll now
+                </a>
+                <a href="#" className="thumb-icon">
+                  <i className="fa fa-picture-o"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-8">
+              <div className="ps-item">
+                <h3>12 Month unlimited</h3>
+                <div className="pi-price">
+                  <h2>Rs. 9000</h2>
+                  <span>SINGLE className</span>
+                </div>
+                <ul>
+                  <li>Free riding</li>
+                  <li>Unlimited equipments</li>
+                  <li>Personal trainer</li>
+                  <li>Weight losing classes</li>
+                  <li>Month to mouth</li>
+                  <li>No time restriction</li>
+                </ul>
+                <a href="#" className="primary-btn pricing-btn">
+                  Enroll now
+                </a>
+                <a href="#" className="thumb-icon">
+                  <i className="fa fa-picture-o"></i>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-8">
+              <div className="ps-item">
+                <h3>6 Month unlimited</h3>
+                <div className="pi-price">
+                  <h2>Rs. 5000</h2>
+                  <span>SINGLE className</span>
+                </div>
+                <ul>
+                  <li>Free riding</li>
+                  <li>Unlimited equipments</li>
+                  <li>Personal trainer</li>
+                  <li>Weight losing classes</li>
+                  <li>Month to mouth</li>
+                  <li>No time restriction</li>
+                </ul>
+                <a href="#" className="primary-btn pricing-btn">
+                  Enroll now
+                </a>
+                <a href="#" className="thumb-icon">
+                  <i className="fa fa-picture-o"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Pricing Section End */}
+
+      {/* Gallery Section Begin */}
+      <div className="gallery-section">
+        <div className="gallery">
+          <div className="grid-sizer"></div>
+          <div
+            className="gs-item grid-wide set-bg"
+            data-setbg="img/gallery/gallery-1.jpg"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <a
+              href="/img/gallery/gallery-1.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
+          <div
+            className="gs-item set-bg"
+            data-setbg="img/gallery/gallery-2.jpg"
+          >
+            <a
+              href="img/gallery/gallery-2.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
+          <div
+            className="gs-item set-bg"
+            data-setbg="img/gallery/gallery-3.jpg"
+          >
+            <a
+              href="/img/gallery/gallery-3.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
+          <div
+            className="gs-item set-bg"
+            data-setbg="img/gallery/gallery-4.jpg"
+          >
+            <a
+              href="/img/gallery/gallery-4.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
+          <div
+            className="gs-item set-bg"
+            data-setbg="img/gallery/gallery-5.jpg"
+          >
+            <a
+              href="/img/gallery/gallery-5.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
+          <div
+            className="gs-item grid-wide set-bg"
+            data-setbg="img/gallery/gallery-6.jpg"
+          >
+            <a
+              href="/img/gallery/gallery-6.jpg"
+              className="thumb-icon image-popup"
+            >
+              <i className="fa fa-picture-o"></i>
+            </a>
+          </div>
         </div>
       </div>
+      {/* Gallery Section End */}
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      {/* Team Section Begin */}
+      <section className="team-section spad">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="team-title">
+                <div className="section-title">
+                  <span>Our Team</span>
+                  <h2>TRAIN WITH EXPERTS</h2>
+                </div>
+                <a href="#" className="primary-btn btn-normal appoinment-btn">
+                  appointment
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="ts-slider owl-carousel">
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-1.jpg"
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-2.jpg"
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-3.jpg"
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-4.jpg"
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-5.jpg"
+                  style={{
+                    backgroundImage: 'url("/img/team/team-5.jpg")',
+                  }}
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4">
+                <div
+                  className="ts-item set-bg"
+                  data-setbg="/img/team/team-6.jpg"
+                >
+                  <div className="ts_text">
+                    <h4>Athart Rachel</h4>
+                    <span>Gym Trainer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Team Section End */}
+    </>
   );
 }
