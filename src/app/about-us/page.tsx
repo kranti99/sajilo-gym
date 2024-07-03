@@ -1,3 +1,6 @@
+import RegisterBanner from "../../../components/registerBanner";
+import Team from "../../../components/team";
+
 export default function About() {
   return (
     <>
@@ -88,13 +91,13 @@ export default function About() {
           <div className="row">
             <div className="col-lg-6 p-0">
               <div
-                className="about-video set-bg"
+                className="about-video"
                 style={{
-                  backgroundImage: 'url("/img/about-us.jpg")',
+                  backgroundImage: 'url("./img/dumb.jpg")',
                 }}
               >
                 <a
-                  href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                  href="https://www.youtube.com/watch?v=JJ0T0Ovapic"
                   className="play-btn video-popup"
                 >
                   <i className="fa fa-caret-right"></i>
@@ -153,124 +156,8 @@ export default function About() {
       </section>
       {/* About US Section End */}
 
-      {/* Team Section Begin */}
-      <section className="team-section spad">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="team-title">
-                <div className="section-title">
-                  <span>Our Team</span>
-                  <h2>TRAIN WITH EXPERTS</h2>
-                </div>
-                <a href="#" className="primary-btn btn-normal appoinment-btn">
-                  appointment
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="ts-slider owl-carousel">
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="./img/team/team-1.jpg"
-                  style={{
-                    backgroundImage: 'url("/img/team/team-1")',
-                  }}
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-2.jpg"
-                  style={{
-                    backgroundImage: 'url("/img/team/team-2")',
-                  }}
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-3.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-4.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-5.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-6.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Team Section End */}
-
-      {/* Banner Section Begin */}
-      <section
-        className="banner-section set-bg"
-        data-setbg="/img/banner-bg.jpg"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <div className="bs-text">
-                <h2>registration now to get more deals</h2>
-                <div className="bt-tips">
-                  Where health, beauty and fitness meet.
-                </div>
-                <a href="#" className="primary-btn  btn-normal">
-                  Appointment
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Banner Section End */}
+      <Team />
+      <RegisterBanner />
 
       {/* Testimonial Section Begin */}
       <section className="testimonial-section spad">

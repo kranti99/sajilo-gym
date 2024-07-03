@@ -15,10 +15,10 @@ export default function Header() {
         <nav className="canvas-menu mobile-menu">
           <ul>
             <li>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li>
-              <Link href="./about-us">About Us</Link>
+              <a href="./about-us">About Us</a>
             </li>
             <li>
               <Link href="./classes">classes</Link>
@@ -33,7 +33,7 @@ export default function Header() {
               <Link href="#">Pages</Link>
               <ul className="dropdown">
                 <li>
-                  <Link href="./about-us">About us</Link>
+                  <a href="./about-us">About us</a>
                 </li>
                 <li>
                   <Link href="./className-timetable.html">
@@ -86,7 +86,7 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-3">
               <div className="logo">
-                <Link href="/">
+                <a href="/">
                   <Image
                     src="/img/logo-new.png"
                     alt=""
@@ -94,17 +94,17 @@ export default function Header() {
                     height={140}
                     priority={true}
                   />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col-lg-6">
               <nav className="nav-menu">
                 <ul>
                   <li className="active">
-                    <Link href="/">Home</Link>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <Link href="./about-us">About Us</Link>
+                    <a href="./about-us">About Us</a>
                   </li>
                   <li>
                     <Link href="./className-details">classNamees</Link>
@@ -119,7 +119,7 @@ export default function Header() {
                     <Link href="#">Pages</Link>
                     <ul className="dropdown">
                       <li>
-                        <Link href="./about-us">About us</Link>
+                        <a href="./about-us">About us</a>
                       </li>
                       <li>
                         <Link href="./className-timetable">

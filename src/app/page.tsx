@@ -1,48 +1,11 @@
 import Image from "next/image";
+import Hero from "../../components/hero";
+import Team from "../../components/team";
+import RegisterBanner from "../../components/registerBanner";
 export default function Home() {
   return (
     <>
-      {/* Hero Section Begin */}
-      <section className="hero-section">
-        <div className="hs-slider owl-carousel">
-          <div className="hs-item set-bg" data-setbg="/img/hero/hero-1.jpg">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6 offset-lg-6">
-                  <div className="hi-text">
-                    <span>Sajilo Fitness and Gym</span>
-                    <h1>
-                      Be <strong>strong</strong> traning hard
-                    </h1>
-                    <a href="#" className="primary-btn">
-                      Get info
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="hs-item set-bg" data-setbg="/img/hero/hero-2.jpg">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6 offset-lg-6">
-                  <div className="hi-text">
-                    <span>Sajilo Fitness and Gym </span>
-                    <h1>
-                      Be <strong>strong</strong> traning hard
-                    </h1>
-                    <a href="#" className="primary-btn">
-                      Get info
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Hero Section End */}
-
+      <Hero />
       {/* ChoseUs Section Begin */}
       <section className="choseus-section spad">
         <div className="container">
@@ -212,28 +175,7 @@ export default function Home() {
       </section>
       {/* ChoseUs Section End */}
 
-      {/* Banner Section Begin */}
-      <section
-        className="banner-section set-bg"
-        data-setbg="/img/banner-bg.jpg"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <div className="bs-text">
-                <h2>registration now to get more deals</h2>
-                <div className="bt-tips">
-                  Where health, beauty and fitness meet.
-                </div>
-                <a href="#" className="primary-btn  btn-normal">
-                  Appointment
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Banner Section End */}
+      <RegisterBanner />
 
       {/* Pricing Section Begin */}
       <section className="pricing-section spad">
@@ -394,99 +336,7 @@ export default function Home() {
         </div>
       </div>
       {/* Gallery Section End */}
-
-      {/* Team Section Begin */}
-      <section className="team-section spad">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="team-title">
-                <div className="section-title">
-                  <span>Our Team</span>
-                  <h2>TRAIN WITH EXPERTS</h2>
-                </div>
-                <a href="#" className="primary-btn btn-normal appoinment-btn">
-                  appointment
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="ts-slider owl-carousel">
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-1.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-2.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-3.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-4.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-5.jpg"
-                  style={{
-                    backgroundImage: 'url("/img/team/team-5.jpg")',
-                  }}
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div
-                  className="ts-item set-bg"
-                  data-setbg="/img/team/team-6.jpg"
-                >
-                  <div className="ts_text">
-                    <h4>Athart Rachel</h4>
-                    <span>Gym Trainer</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Team Section End */}
+      <Team />
     </>
   );
 }

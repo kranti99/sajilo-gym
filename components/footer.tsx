@@ -52,7 +52,7 @@ export default function Footer() {
             <div className="col-lg-4">
               <div className="fs-about">
                 <div className="fa-logo">
-                  <a href="#">
+                  <a href="/">
                     <Image
                       src="/img/logo-footer.jpg"
                       alt=""
@@ -92,7 +92,7 @@ export default function Footer() {
                 <h4>Useful links</h4>
                 <ul>
                   <li>
-                    <a href="/about">About</a>
+                    <a href="./about-us">About</a>
                   </li>
                   <li>
                     <a href="#">Blog</a>
@@ -186,16 +186,6 @@ export default function Footer() {
         </div>
       </div>
       {/* Search model end */}
-
-      {/* Js Plugins */}
-      <Script src="./js/jquery-3.3.1.min.js"></Script>
-      <Script src="./js/bootstrap.min.js"></Script>
-      <Script src="./js/jquery.magnific-popup.min.js"></Script>
-      <Script src="./js/masonry.pkgd.min.js"></Script>
-      <Script src="./js/jquery.barfiller.js"></Script>
-      <Script src="./js/jquery.slicknav.js"></Script>
-      <Script src="./js/owl.carousel.min.js"></Script>
-      <Script src="./js/main.js"></Script>
     </>
   );
 }
