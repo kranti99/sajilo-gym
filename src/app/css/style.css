@@ -951,8 +951,13 @@ ol {
   padding-bottom: 70px;
 }
 
+.team-section .owl-item .ts-item {
+  background-size: cover;
+}
+
 .team-section.team-page .ts-item {
   margin-bottom: 30px;
+  background-size: cover;
 }
 
 .team-section.team-page .ts-item:hover .ts_text {

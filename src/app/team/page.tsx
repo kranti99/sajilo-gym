@@ -1,6 +1,6 @@
 import Price from "../../../components/price";
 
-export default function Services() {
+export default function TeamPage() {
   return (
     <>
       {/*Breadcrumb Section Begin */}
@@ -45,7 +45,10 @@ export default function Services() {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="ts-item set-bg" data-setbg="img/team/team-1.jpg">
+              <div
+                className="ts-item"
+                style={{ backgroundImage: "url('/img/team/team-1.jpg')" }}
+              >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
@@ -70,7 +73,10 @@ export default function Services() {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="ts-item set-bg" data-setbg="img/team/team-2.jpg">
+              <div
+                className="ts-item"
+                style={{ backgroundImage: "url('/img/team/team-2.jpg')" }}
+              >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
@@ -95,7 +101,10 @@ export default function Services() {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="ts-item set-bg" data-setbg="img/team/team-3.jpg">
+              <div
+                className="ts-item"
+                style={{ backgroundImage: "url('/img/team/team-3.jpg')" }}
+              >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
@@ -120,7 +129,10 @@ export default function Services() {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="ts-item set-bg" data-setbg="img/team/team-4.jpg">
+              <div
+                className="ts-item"
+                style={{ backgroundImage: "url('/img/team/team-4.jpg')" }}
+              >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
@@ -145,7 +157,10 @@ export default function Services() {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <div className="ts-item set-bg" data-setbg="img/team/team-5.jpg">
+              <div
+                className="ts-item"
+                style={{ backgroundImage: "url('/img/team/team-5.jpg')" }}
+              >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
