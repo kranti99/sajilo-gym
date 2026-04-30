@@ -3,170 +3,185 @@ import Hero from "../../components/hero";
 import Team from "../../components/team";
 import RegisterBanner from "../../components/registerBanner";
 import Price from "./../../components/price";
+
 export default function Home() {
   return (
     <>
       <Hero />
-      {/* ChoseUs Section Begin */}
+
+      {/* Why Choose Us Section */}
       <section className="choseus-section spad">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <span>Why chose us?</span>
-                <h2>PUSH YOUR LIMITS FORWARD</h2>
+                <span>Why choose us?</span>
+                <h2>TRAIN SMART. GET RESULTS.</h2>
               </div>
             </div>
           </div>
+
           <div className="row">
             <div className="col-lg-3 col-sm-6">
               <div className="cs-item">
                 <span className="flaticon-034-stationary-bike"></span>
-                <h4>Modern equipment</h4>
+                <h4>Modern Equipment</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut dolore facilisis.
+                  Train with the latest, high-performance machines designed for
+                  safety, efficiency, and maximum results.
                 </p>
               </div>
             </div>
+
             <div className="col-lg-3 col-sm-6">
               <div className="cs-item">
                 <span className="flaticon-033-juice"></span>
-                <h4>Healthy nutrition plan</h4>
+                <h4>Nutrition Guidance</h4>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Get personalized nutrition advice to support your fitness
+                  goals and improve overall health.
                 </p>
               </div>
             </div>
+
             <div className="col-lg-3 col-sm-6">
               <div className="cs-item">
                 <span className="flaticon-002-dumbell"></span>
-                <h4>Proffesponal training plan</h4>
+                <h4>Professional Coaching</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut dolore facilisis.
+                  Work with certified trainers who create structured programs
+                  tailored to your fitness level.
                 </p>
               </div>
             </div>
+
             <div className="col-lg-3 col-sm-6">
               <div className="cs-item">
                 <span className="flaticon-014-heart-beat"></span>
-                <h4>Unique to your needs</h4>
+                <h4>Personalized Plans</h4>
                 <p>
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Every body is different — we build workout plans that fit your
+                  goals, schedule, and lifestyle.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* ChoseUs Section End */}
 
-      {/* classes Section Begin */}
+      {/* Classes Section */}
       <section className="classes-section spad">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="section-title">
-                <span>Our classes</span>
-                <h2>WHAT WE CAN OFFER</h2>
+                <span>Our Classes</span>
+                <h2>PROGRAMS FOR EVERY GOAL</h2>
               </div>
             </div>
           </div>
+
           <div className="row">
+            {/* Class 1 */}
             <div className="col-lg-4 col-md-6">
               <div className="class-item">
                 <div className="ci-pic">
                   <Image
                     src="/img/classes/class-1.jpg"
-                    alt=""
+                    alt="Weightlifting"
                     width={360}
                     height={240}
                   />
                 </div>
                 <div className="ci-text">
-                  <span>STRENGTH</span>
+                  <span>Strength</span>
                   <h5>Weightlifting</h5>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i>
+                    View Details <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
               </div>
             </div>
+
+            {/* Class 2 */}
             <div className="col-lg-4 col-md-6">
               <div className="class-item">
                 <div className="ci-pic">
                   <Image
                     src="/img/classes/class-2.jpg"
-                    alt=""
+                    alt="Indoor cycling"
                     width={360}
                     height={240}
                   />
                 </div>
                 <div className="ci-text">
                   <span>Cardio</span>
-                  <h5>Indoor cycling</h5>
+                  <h5>Indoor Cycling</h5>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i>
+                    View Details <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
               </div>
             </div>
+
+            {/* Class 3 */}
             <div className="col-lg-4 col-md-6">
               <div className="class-item">
                 <div className="ci-pic">
                   <Image
                     src="/img/classes/class-3.jpg"
-                    alt=""
+                    alt="Kettlebell training"
                     width={360}
                     height={240}
                   />
                 </div>
                 <div className="ci-text">
-                  <span>STRENGTH</span>
-                  <h5>Kettlebell power</h5>
+                  <span>Strength</span>
+                  <h5>Kettlebell Training</h5>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i>
+                    View Details <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
               </div>
             </div>
+
+            {/* Class 4 */}
             <div className="col-lg-6 col-md-6">
               <div className="class-item">
                 <div className="ci-pic">
                   <Image
                     src="/img/classes/class-4.jpg"
-                    alt=""
+                    alt="HIIT training"
                     width={360}
                     height={240}
                   />
                 </div>
                 <div className="ci-text">
                   <span>Cardio</span>
-                  <h4>Indoor cycling</h4>
+                  <h4>HIIT Training</h4>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i>
+                    View Details <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
               </div>
             </div>
+
+            {/* Class 5 */}
             <div className="col-lg-6">
               <div className="class-item">
                 <div className="ci-pic">
                   <Image
                     src="/img/classes/class-5.jpg"
-                    alt=""
+                    alt="Full body workout"
                     width={360}
                     height={240}
                   />
                 </div>
                 <div className="ci-text">
-                  <span>Cardio</span>
-                  <h4>Workout</h4>
+                  <span>Fitness</span>
+                  <h4>Full Body Workout</h4>
                   <a href="#">
-                    <i className="fa fa-angle-right"></i>
+                    View Details <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
               </div>
@@ -174,83 +189,66 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* ChoseUs Section End */}
 
       <RegisterBanner />
       <Price />
-      {/* Gallery Section Begin */}
+
+      {/* Gallery Section */}
       <div className="gallery-section">
+        <div className="container">
+          <div className="section-title">
+            <span>Gallery</span>
+            <h2>OUR TRAINING ENVIRONMENT</h2>
+          </div>
+        </div>
+
         <div className="gallery">
           <div className="grid-sizer"></div>
+
           <div
             className="gs-item grid-wide set-bg"
             data-setbg="img/gallery/gallery-1.jpg"
           >
-            <a
-              href="/img/gallery/gallery-1.jpg"
-              className="thumb-icon image-popup"
-            >
+            <a href="/img/gallery/gallery-1.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
-          <div
-            className="gs-item set-bg"
-            data-setbg="img/gallery/gallery-2.jpg"
-          >
-            <a
-              href="img/gallery/gallery-2.jpg"
-              className="thumb-icon image-popup"
-            >
+
+          <div className="gs-item set-bg" data-setbg="img/gallery/gallery-2.jpg">
+            <a href="/img/gallery/gallery-2.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
-          <div
-            className="gs-item set-bg"
-            data-setbg="img/gallery/gallery-3.jpg"
-          >
-            <a
-              href="/img/gallery/gallery-3.jpg"
-              className="thumb-icon image-popup"
-            >
+
+          <div className="gs-item set-bg" data-setbg="img/gallery/gallery-3.jpg">
+            <a href="/img/gallery/gallery-3.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
-          <div
-            className="gs-item set-bg"
-            data-setbg="img/gallery/gallery-4.jpg"
-          >
-            <a
-              href="/img/gallery/gallery-4.jpg"
-              className="thumb-icon image-popup"
-            >
+
+          <div className="gs-item set-bg" data-setbg="img/gallery/gallery-4.jpg">
+            <a href="/img/gallery/gallery-4.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
-          <div
-            className="gs-item set-bg"
-            data-setbg="img/gallery/gallery-5.jpg"
-          >
-            <a
-              href="/img/gallery/gallery-5.jpg"
-              className="thumb-icon image-popup"
-            >
+
+          <div className="gs-item set-bg" data-setbg="img/gallery/gallery-5.jpg">
+            <a href="/img/gallery/gallery-5.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
+
           <div
             className="gs-item grid-wide set-bg"
             data-setbg="img/gallery/gallery-6.jpg"
           >
-            <a
-              href="/img/gallery/gallery-6.jpg"
-              className="thumb-icon image-popup"
-            >
+            <a href="/img/gallery/gallery-6.jpg" className="thumb-icon image-popup">
               <i className="fa fa-picture-o"></i>
             </a>
           </div>
         </div>
       </div>
-      {/* Gallery Section End */}
+
       <Team />
     </>
   );
