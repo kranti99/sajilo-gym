@@ -17,7 +17,7 @@ export default function Price() {
               <div className="ps-item">
                 <h3>3 month unlimited</h3>
                 <div className="pi-price">
-                  <h2>Rs. 4000</h2>
+                  <h2>Rs. XXXX</h2>
                   <span>SINGLE className</span>
                 </div>
                 <ul>
@@ -40,7 +40,7 @@ export default function Price() {
               <div className="ps-item">
                 <h3>12 Month unlimited</h3>
                 <div className="pi-price">
-                  <h2>Rs. 9000</h2>
+                  <h2>Rs. XXXX</h2>
                   <span>SINGLE className</span>
                 </div>
                 <ul>
@@ -63,7 +63,7 @@ export default function Price() {
               <div className="ps-item">
                 <h3>6 Month unlimited</h3>
                 <div className="pi-price">
-                  <h2>Rs. 5000</h2>
+                  <h2>Rs. XXXX</h2>
                   <span>SINGLE className</span>
                 </div>
                 <ul>
