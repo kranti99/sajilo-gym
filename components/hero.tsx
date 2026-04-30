@@ -11,7 +11,7 @@ export default function Hero() {
                   <div className="hi-text">
                     <span>Sajilo Fitness and Gym</span>
                     <h1>
-                      Be <strong>strong</strong> traning hard
+                       Build Strength. Burn Fat. <strong>Transform Your Body</strong>
                     </h1>
                     <a href="#" className="primary-btn">
                       Get info
@@ -28,7 +28,7 @@ export default function Hero() {
                   <div className="hi-text">
                     <span>Sajilo Fitness and Gym </span>
                     <h1>
-                      Be <strong>strong</strong> traning hard
+                        No Excuses. Just <strong>Results</strong>
                     </h1>
                     <a href="#" className="primary-btn">
                       Get info
